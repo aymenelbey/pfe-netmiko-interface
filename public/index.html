@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <title>NETMIKO Web app | Demonstration</title>
+    <style type="text/css">
+        body{
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Netmiko Web client POF (proof of concept)</h1>
+    <p>This is a simple demonstration for the netmiko </p>
+    <hr />
+    <div id="action-buttons">
+        <button id="btn-load-interfaces" class="btn btn-primary">
+            Load interfaces
+        </button>
+    </div>
+    <br />
+    <h3>Interfaces list</h3>
+    <table class="table table-striped table-hover" id="interfaces-table">
+        <thead>
+            <tr>
+                <th>index</th>
+                <th>Name</th>
+                <th>IP</th>
+                <th>UP</th>
+                <th>Protocol</th>
+                <th>Down/UP</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+</body>
+</html>
